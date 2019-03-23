@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD724
+D Low Cost RGB to NTSC/PAL Encoder
+K Video
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD724.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MC44144
+D Subcarrier Phase Locked Loop
+K PLL FSC 4FSC
+F http://synkie.net/wordpress/wp-content/uploads/2013/11/MC44144P.pdf
+$ENDCMP
+#
+#End Doc Library

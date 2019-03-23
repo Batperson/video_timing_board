@@ -1,0 +1,12 @@
+(sym_lib_table
+  (lib (name MC44144)(type Legacy)(uri C:/Peter/KiCad/VideoTimingBoard/Lib/MC44144.lib)(options "")(descr ""))
+  (lib (name AD724)(type Legacy)(uri C:/Peter/KiCad/VideoTimingBoard/Lib/AD724.lib)(options "")(descr ""))
+  (lib (name VIDEOSWITCH)(type Legacy)(uri C:/Peter/KiCad/VideoTimingBoard/Lib/VIDEOSWITCH.lib)(options "")(descr ""))
+  (lib (name AD8001)(type Legacy)(uri C:/Peter/KiCad/VideoTimingBoard/Lib/AD8001.lib)(options "")(descr ""))
+  (lib (name NFE61PT472C1H9)(type Legacy)(uri ${KIPRJMOD}/lib/NFE61PT472C1H9L.lib)(options "")(descr ""))
+  (lib (name SN74LVC3G04)(type Legacy)(uri ${KIPRJMOD}/lib/SN74LVC3G04DCTR.lib)(options "")(descr ""))
+  (lib (name TLV350x)(type Legacy)(uri ${KIPRJMOD}/lib/tlv350x.lib)(options "")(descr ""))
+  (lib (name ADG736)(type Legacy)(uri ${KIPRJMOD}/lib/ADG736LBRMZ.lib)(options "")(descr ""))
+  (lib (name Jumpers)(type Legacy)(uri ${KIPRJMOD}/Lib/Jumpers.lib)(options "")(descr ""))
+  (lib (name Schottky)(type Legacy)(uri ${KIPRJMOD}/Lib/Schottky.lib)(options "")(descr ""))
+)

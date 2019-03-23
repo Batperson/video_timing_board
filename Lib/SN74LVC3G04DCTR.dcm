@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74AHC1G04
+D Single Inverter Gate with Schmitt Trigger
+K Inverter,schmitt
+F http://www.ti.com/lit/ds/symlink/sn74ahc1g04.pdf
+$ENDCMP
+#
+$CMP SN74LVC3G04DCTR
+D Triple Inverter Gate
+F https://www.arrow.com/en/products/sn74lvc3g04dctr/texas-instruments
+$ENDCMP
+#
+#End Doc Library

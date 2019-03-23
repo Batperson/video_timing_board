@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADG736LBRMZ-REEL7
+D CMOS Low Voltage Dual SPDT Switch
+K switch,spdt
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adg736.pdf
+$ENDCMP
+#
+#End Doc Library

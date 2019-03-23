@@ -1,0 +1,103 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+SOT23-6_DBV_R-PDSO-G6
+$EndINDEX
+$MODULE SOT23-6_DBV_R-PDSO-G6
+Po 0 0 0 15 00000000 00000000 ~~
+Li SOT23-6_DBV_R-PDSO-G6
+Cd SOT23-6 [DBV R-PDSO-G6)]
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 0.53515 -2.51069 0.80022 0.80022 0 0.05 N V 21 "SOT23-6_DBV_R-PDSO-G6"
+T1 1.04454 2.56775 0.801173 0.801173 0 0.05 N V 21 "VAL**"
+DS 1.522 0.856 -1.523 0.856 0.1524 24
+DS -1.523 -0.856 1.522 -0.856 0.1524 24
+DS -1.8 -2.2 1.8 -2.2 0.1016 26
+DS 1.8 -2.2 1.8 2.2 0.1016 26
+DS 1.8 2.2 -1.8 2.2 0.1016 26
+DS -1.8 2.2 -1.8 -2.2 0.1016 26
+DC -1.15 0.5 -1.05 0.5 0 21
+DP 0 0 0 0 4 0 24
+Dl -1.20057 0.9
+Dl -0.7 0.9
+Dl -0.7 1.50072
+Dl -1.20057 1.50072
+DP 0 0 0 0 4 0 24
+Dl -0.250036 0.9
+Dl 0.25 0.9
+Dl 0.25 1.50022
+Dl -0.250036 1.50022
+DP 0 0 0 0 4 0 24
+Dl 0.700955 0.9
+Dl 1.2 0.9
+Dl 1.2 1.50205
+Dl 0.700955 1.50205
+DP 0 0 0 0 4 0 24
+Dl 0.700385 -1.5
+Dl 1.2 -1.5
+Dl 1.2 -0.900495
+Dl 0.700385 -0.900495
+DP 0 0 0 0 4 0 24
+Dl -0.250321 -1.5
+Dl 0.25 -1.5
+Dl 0.25 -0.901155
+Dl -0.250321 -0.901155
+DP 0 0 0 0 4 0 24
+Dl -1.20208 -1.5
+Dl -0.7 -1.5
+Dl -0.7 -0.901564
+Dl -1.20208 -0.901564
+$PAD
+Sh "5" R 0.55 1 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0 -1.35
+$EndPAD
+$PAD
+Sh "6" R 0.55 1 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.95 -1.35
+$EndPAD
+$PAD
+Sh "4" R 0.55 1 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.95 -1.35
+$EndPAD
+$PAD
+Sh "3" R 0.55 1 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.95 1.35
+$EndPAD
+$PAD
+Sh "1" R 0.55 1 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.95 1.35
+$EndPAD
+$PAD
+Sh "2" R 0.55 1 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0 1.35
+$EndPAD
+$EndMODULE SOT23-6_DBV_R-PDSO-G6
