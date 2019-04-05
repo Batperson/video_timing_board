@@ -35,7 +35,7 @@ AR Path="/5C99D621" Ref="U4"  Part="1"
 AR Path="/5CAADBB8/5C99D621" Ref="U?"  Part="1" 
 F 0 "U4" H 6050 5100 60  0000 L CNN
 F 1 "TLV3502" H 5900 4950 60  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-8_Handsoldering" H 5800 4750 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5800 4750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tlv3501.pdf" H 5800 4750 50  0001 C CNN
 	1    5800 4750
 	1    0    0    -1  
@@ -251,18 +251,18 @@ CVBS-CLAMPED
 $Comp
 L Device:C_Small C8
 U 1 1 5C99D691
-P 2650 5450
+P 2950 5450
 AR Path="/5C99D691" Ref="C8"  Part="1" 
 AR Path="/5CAADBB8/5C99D691" Ref="C?"  Part="1" 
-F 0 "C8" V 2400 5450 50  0000 C CNN
-F 1 "1nF" V 2500 5450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2650 5450 50  0001 C CNN
-F 3 "~" H 2650 5450 50  0001 C CNN
-	1    2650 5450
+F 0 "C8" V 2700 5450 50  0000 C CNN
+F 1 "1nF" V 2800 5450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2950 5450 50  0001 C CNN
+F 3 "~" H 2950 5450 50  0001 C CNN
+	1    2950 5450
 	0    1    1    0   
 $EndComp
-Text Label 3050 5450 0    50   ~ 0
-FSC
+Text Label 3200 5450 0    50   ~ 0
+FSC-BIAS
 $Comp
 L power:GND #PWR05
 U 1 1 5C99D699
@@ -485,8 +485,6 @@ F 3 "~" H 4400 4950 50  0001 C CNN
 	1    4400 4950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2550 5450 2450 5450
 $Comp
 L Device:R_Small R5
 U 1 1 5C99D70D
@@ -539,7 +537,7 @@ P 5900 1950
 AR Path="/5C99D723" Ref="U3"  Part="1" 
 AR Path="/5CAADBB8/5C99D723" Ref="U?"  Part="1" 
 F 0 "U3" H 6050 2300 50  0000 L CNN
-F 1 "SN74LVC3G04" H 6050 2200 50  0000 L CNN
+F 1 "SN74LVC1GU04" H 6050 2200 50  0000 L CNN
 F 2 "Package_SO:Texas_R-PDSO-N5" H 6000 1950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74ahc1g04.pdf" H 6000 1950 50  0001 C CNN
 	1    5900 1950
@@ -854,7 +852,7 @@ AR Path="/5CAADBB8/5C99D7C9" Ref="U?"  Part="1"
 AR Path="/5C99D7C9" Ref="U4"  Part="2" 
 F 0 "U4" H 6150 6550 60  0000 C CNN
 F 1 "TLV3502" H 6150 6400 60  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-8_Handsoldering" H 5700 5100 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5700 5100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tlv3501.pdf" H 5650 5250 50  0001 C CNN
 	2    5800 6200
 	1    0    0    -1  
@@ -931,32 +929,26 @@ Wire Wire Line
 $Comp
 L Device:C_Small C9
 U 1 1 5C99D7F3
-P 2650 5700
+P 2950 5700
 AR Path="/5C99D7F3" Ref="C9"  Part="1" 
 AR Path="/5CAADBB8/5C99D7F3" Ref="C?"  Part="1" 
-F 0 "C9" V 2800 5700 50  0000 C CNN
-F 1 "1nF" V 2900 5700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2650 5700 50  0001 C CNN
-F 3 "~" H 2650 5700 50  0001 C CNN
-	1    2650 5700
+F 0 "C9" V 3100 5700 50  0000 C CNN
+F 1 "1nF" V 3200 5700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2950 5700 50  0001 C CNN
+F 3 "~" H 2950 5700 50  0001 C CNN
+	1    2950 5700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3650 6350 3650 5700
 Wire Wire Line
-	3650 5700 2750 5700
-Wire Wire Line
 	3650 6350 4400 6350
-Wire Wire Line
-	2550 5700 2450 5700
 Wire Wire Line
 	3650 5450 3650 5100
 Wire Wire Line
-	2750 5450 3650 5450
-Wire Wire Line
 	3650 5100 4400 5100
-Text Label 3050 5700 0    50   ~ 0
-4FSC
+Text Label 3200 5700 0    50   ~ 0
+4FSC-BIAS
 Connection ~ 4400 5100
 Wire Wire Line
 	4400 5100 5050 5100
@@ -1138,7 +1130,7 @@ AR Path="/5CAAD8F5/5C99D856" Ref="R?"  Part="1"
 AR Path="/5CAADBB8/5C99D856" Ref="R?"  Part="1" 
 AR Path="/5C99D856" Ref="R10"  Part="1" 
 F 0 "R10" H 8509 1746 50  0000 L CNN
-F 1 "10K" H 8509 1655 50  0000 L CNN
+F 1 "150R" H 8509 1655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8450 1700 50  0001 C CNN
 F 3 "~" H 8450 1700 50  0001 C CNN
 	1    8450 1700
@@ -1233,7 +1225,7 @@ AR Path="/5CAADBB8/5C99D882" Ref="J?"  Part="1"
 AR Path="/5C99D882" Ref="J1"  Part="1" 
 F 0 "J1" H 10650 2900 50  0000 C CNN
 F 1 "~" H 10700 2476 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x15_P1.27mm_Vertical" H 10650 1950 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x17_P1.27mm_Vertical" H 10650 1950 50  0001 C CNN
 F 3 "~" H 10650 1950 50  0001 C CNN
 	1    10650 1950
 	1    0    0    -1  
@@ -1328,4 +1320,16 @@ Text Label 9600 1450 0    50   ~ 0
 GND
 Text Label 9600 1350 0    50   ~ 0
 CVBS-CLAMPED
+Wire Wire Line
+	3650 5450 3050 5450
+Wire Wire Line
+	2450 5450 2850 5450
+Wire Wire Line
+	2450 5700 2850 5700
+Wire Wire Line
+	3050 5700 3650 5700
+Text Label 2600 5450 0    50   ~ 0
+FSC
+Text Label 2600 5700 0    50   ~ 0
+4FSC
 $EndSCHEMATC
