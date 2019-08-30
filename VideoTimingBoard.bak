@@ -56,15 +56,15 @@ $EndComp
 $Comp
 L Device:C_Small C3
 U 1 1 5C99D62F
-P 1650 1400
+P 2250 1550
 AR Path="/5C99D62F" Ref="C3"  Part="1" 
 AR Path="/5CAADBB8/5C99D62F" Ref="C?"  Part="1" 
-F 0 "C3" V 1902 1400 50  0000 C CNN
-F 1 "0.1uF" V 1811 1400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1688 1250 50  0001 C CNN
-F 3 "~" H 1650 1400 50  0001 C CNN
-	1    1650 1400
-	0    -1   -1   0   
+F 0 "C3" V 2502 1550 50  0000 C CNN
+F 1 "0.1uF" V 2411 1550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2288 1400 50  0001 C CNN
+F 3 "~" H 2250 1550 50  0001 C CNN
+	1    2250 1550
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C_Small C4
@@ -246,8 +246,6 @@ Wire Wire Line
 	1550 4700 1650 4700
 Wire Wire Line
 	2050 4850 2050 5100
-Text Label 550  5450 0    50   ~ 0
-CVBS-CLAMPED
 $Comp
 L Device:C_Small C8
 U 1 1 5C99D691
@@ -470,8 +468,6 @@ F 3 "" H 5600 3700 50  0001 C CNN
 	1    5600 3700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2250 1400 2250 1750
 $Comp
 L Device:R_Small R4
 U 1 1 5C99D705
@@ -621,37 +617,6 @@ Connection ~ 1850 2200
 Wire Wire Line
 	1850 2200 1850 2300
 $Comp
-L Device:R_Small R1
-U 1 1 5C99D751
-P 1300 1650
-AR Path="/5C99D751" Ref="R1"  Part="1" 
-AR Path="/5CAADBB8/5C99D751" Ref="R?"  Part="1" 
-F 0 "R1" V 1104 1650 50  0000 C CNN
-F 1 "75R" V 1195 1650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1300 1650 50  0001 C CNN
-F 3 "~" H 1300 1650 50  0001 C CNN
-	1    1300 1650
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1300 1550 1300 1400
-Connection ~ 1300 1400
-$Comp
-L power:GND #PWR03
-U 1 1 5C99D75A
-P 1300 1800
-AR Path="/5C99D75A" Ref="#PWR03"  Part="1" 
-AR Path="/5CAADBB8/5C99D75A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR03" H 1300 1550 50  0001 C CNN
-F 1 "GND" H 1305 1627 50  0000 C CNN
-F 2 "" H 1300 1800 50  0001 C CNN
-F 3 "" H 1300 1800 50  0001 C CNN
-	1    1300 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 1800 1300 1750
-$Comp
 L Device:C_Small C14
 U 1 1 5C99D761
 P 5800 3800
@@ -756,8 +721,6 @@ Wire Wire Line
 Connection ~ 1650 4500
 Wire Wire Line
 	1650 4500 1650 4700
-Wire Wire Line
-	1300 1400 1550 1400
 $Comp
 L Device:C_Small C10
 U 1 1 5C99D79B
@@ -802,42 +765,6 @@ Wire Wire Line
 	1650 4100 1650 4500
 Text Notes 2350 4750 0    50   ~ 0
 14.31818 MHz (NTSC)\n17.734475 MHz (PAL)
-$Comp
-L Schottky:D_Schottky D?
-U 1 1 5C99D7B3
-P 1900 1650
-AR Path="/5CAADBB8/5C99D7B3" Ref="D?"  Part="1" 
-AR Path="/5C99D7B3" Ref="D1"  Part="1" 
-F 0 "D1" V 1854 1729 50  0000 L CNN
-F 1 "BAT54" V 1945 1729 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 1900 1650 50  0001 C CNN
-F 3 "~" H 1900 1650 50  0001 C CNN
-	1    1900 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR06
-U 1 1 5C99D7BA
-P 1900 1800
-AR Path="/5C99D7BA" Ref="#PWR06"  Part="1" 
-AR Path="/5CAADBB8/5C99D7BA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR06" H 1900 1550 50  0001 C CNN
-F 1 "GND" H 1905 1627 50  0000 C CNN
-F 2 "" H 1900 1800 50  0001 C CNN
-F 3 "" H 1900 1800 50  0001 C CNN
-	1    1900 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1750 1400 1900 1400
-Wire Wire Line
-	1900 1500 1900 1400
-Connection ~ 1900 1400
-Wire Wire Line
-	1900 1400 2250 1400
-Wire Wire Line
-	2250 950  2250 1400
-Connection ~ 2250 1400
 Text Label 2050 5050 1    50   ~ 0
 XTAL
 Wire Wire Line
@@ -1130,7 +1057,7 @@ AR Path="/5CAAD8F5/5C99D856" Ref="R?"  Part="1"
 AR Path="/5CAADBB8/5C99D856" Ref="R?"  Part="1" 
 AR Path="/5C99D856" Ref="R10"  Part="1" 
 F 0 "R10" H 8509 1746 50  0000 L CNN
-F 1 "10K" H 8509 1655 50  0000 L CNN
+F 1 "150R" H 8509 1655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8450 1700 50  0001 C CNN
 F 3 "~" H 8450 1700 50  0001 C CNN
 	1    8450 1700
@@ -1225,7 +1152,7 @@ AR Path="/5CAADBB8/5C99D882" Ref="J?"  Part="1"
 AR Path="/5C99D882" Ref="J1"  Part="1" 
 F 0 "J1" H 10650 2900 50  0000 C CNN
 F 1 "~" H 10700 2476 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x17_P1.27mm_Vertical" H 10650 1950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x17_P2.54mm_Vertical" H 10650 1950 50  0001 C CNN
 F 3 "~" H 10650 1950 50  0001 C CNN
 	1    10650 1950
 	1    0    0    -1  
@@ -1282,20 +1209,12 @@ Text Label 3800 1850 2    50   ~ 0
 BURST
 Text Label 3800 1950 2    50   ~ 0
 FIELD
-Wire Wire Line
-	800  950  2250 950 
-Wire Wire Line
-	800  1400 1300 1400
-Text Label 800  1400 0    50   ~ 0
-CVBS-IN
-Text Label 800  950  0    50   ~ 0
-CVBS-CLAMPED
-Wire Wire Line
-	550  5450 1200 5450
+Text Label 1200 1200 0    50   ~ 0
+CVBS
 Wire Wire Line
 	550  5700 1200 5700
 Text Label 10000 3850 0    50   ~ 0
-CVBS-IN
+CVBS
 Text Label 9600 2450 0    50   ~ 0
 GND
 Text Label 9600 2350 0    50   ~ 0
@@ -1319,7 +1238,7 @@ Wire Wire Line
 Text Label 9600 1450 0    50   ~ 0
 GND
 Text Label 9600 1350 0    50   ~ 0
-CVBS-CLAMPED
+CVBS
 Wire Wire Line
 	3650 5450 3050 5450
 Wire Wire Line
@@ -1332,4 +1251,50 @@ Text Label 2600 5450 0    50   ~ 0
 FSC
 Text Label 2600 5700 0    50   ~ 0
 4FSC
+Wire Wire Line
+	2250 1650 2250 1750
+Wire Wire Line
+	1200 1200 2250 1200
+Wire Wire Line
+	2250 1200 2250 1450
+$Comp
+L Device:C_Small C18
+U 1 1 5D6B0B47
+P 950 5450
+AR Path="/5D6B0B47" Ref="C18"  Part="1" 
+AR Path="/5CAADBB8/5D6B0B47" Ref="C?"  Part="1" 
+F 0 "C18" V 1202 5450 50  0000 C CNN
+F 1 "0.1uF" V 1111 5450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 988 5300 50  0001 C CNN
+F 3 "~" H 950 5450 50  0001 C CNN
+	1    950  5450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1050 5450 1200 5450
+Wire Wire Line
+	850  5450 550  5450
+Text Label 550  5450 0    50   ~ 0
+CVBS
+$Comp
+L Device:R_Small R1
+U 1 1 5D6BC863
+P 7800 3250
+AR Path="/5D6BC863" Ref="R1"  Part="1" 
+AR Path="/5CAADBB8/5D6BC863" Ref="R?"  Part="1" 
+F 0 "R1" V 7700 3250 50  0000 C CNN
+F 1 "0R" V 7600 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7800 3250 50  0001 C CNN
+F 3 "~" H 7800 3250 50  0001 C CNN
+	1    7800 3250
+	0    -1   -1   0   
+$EndComp
+Text Label 7550 3250 0    50   ~ 0
+FSC
+Text Label 8050 3250 2    50   ~ 0
+FSC
+Wire Wire Line
+	7550 3250 7700 3250
+Wire Wire Line
+	7900 3250 8050 3250
 $EndSCHEMATC
